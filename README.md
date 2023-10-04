@@ -5,10 +5,10 @@ Introduction
 The TamuccShell program provides a basic shell interface where users can input commands. It also displays the shell name as TamuccShell>>.
 
 Functions
-char \* intro()
+char * intro()
 This function prompts the user for input, reads it, and returns the input as a string. It also prints the shell name.
 
-int tokenizer(char \**toks, char *data)
+int tokenizer(char **toks, char *data)
 This function tokenizes the user input, separating it into individual arguments. It takes an array of strings (toks) and the user input (data) as parameters. The function returns an integer indicating any errors.
 
 Usage
