@@ -12,19 +12,22 @@ int tokenizer(char **toks, char *data)
 This function tokenizes the user input, separating it into individual arguments. It takes an array of strings (toks) and the user input (data) as parameters. The function returns an integer indicating any errors.
 
 Usage
-Compile the program.
-Run the executable.
-Enter commands when prompted with TamuccShell>>.
+  1.Compile the program.
+  2.Run the executable.
+  3.Enter commands when prompted with TamuccShell>>.
 Example Usage
-bash
-Copy code
-TamuccShell>> ls -l
+  bash
+  Copy code
+  TamuccShell>> ls -l
 Supported Commands
-exit: Exits the shell program.
+  exit: Exits the shell program.
+  
 Notes
 The shell program uses a maximum of 10 tokens.
 Make sure to provide valid commands and arguments.
+
 Contributors
-Your Name
+Jacob Jones
+
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License 
